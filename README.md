@@ -1,11 +1,17 @@
 # python-arithmetic-app
-This is a silly arithmetic app created with Python 3 to simply demonstrate its basic synthax
+This is a simple arithmetic app created with Python 3 to simply demonstrate its basic syntax
 
 © 2023 Daniel Pinheiro Maia All Rights Reserved<br>
 (see Copyright© License at the end of this text).
 
 [**Description of this repository**]<br>
-This is a silly arithmetic app, created with Python 3, that simply demonstrates the basic synthax of this programming language. This app is a console program, and the user interface is basically a while loop through which the user chooses what arithmetic operations to call on a list of numbers passed by the same user in the sequence. The app demonstrates how to use modules, exception handling, conditional logics, data structures, functional programming and other basic structures with Python 3.
+This is a simple arithmetic app, created with Python 3, that simply demonstrates the basic syntax of this programming language. This app is a console program, and the user interface is basically a while loop through which the user chooses what arithmetic operations to call on a list of numbers passed by the same user in the sequence. The app demonstrates how to use modules, exception handling, conditional logics, data structures, input validation, functional programming and other basic structures with Python 3.
+
+[**Source Code and Run**]<br>
+Source code available at github.com, through the following link:<br>
+https://github.com/danielpm1982/python-arithmetic-app <br>
+Run this project remotely at replit.com (online IDE), through the following link:<br>
+https://replit.com/@danielpm1982/python-arithmetic-app#main.py
 
 [**Copyright© License**]<br>
 © 2023 Daniel Pinheiro Maia All Rights Reserved<br>

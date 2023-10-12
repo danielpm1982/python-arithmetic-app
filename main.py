@@ -1,21 +1,22 @@
-# This is a silly arithmetic app created with Python 3 to simply demonstrate its basic synthax. See the README.md
-# file below for more:
+# This is a simple arithmetic app created with Python 3 to simply demonstrate its basic syntax.
+# For more, read the README.md file below:
 # https://github.com/danielpm1982/python-arithmetic-app/blob/master/README.md
 
 # different ways of importing modules in Python (either python packages or python files). Adjust the use according to
 # what method you choose below. Specifically, if you declare an alias, use it, otherwise, don't. Whatever comes on
 # the right side of the "import" keyword must be called explicitly at the code (maybe not only the function name),
-# while what comes between "from" and "import" (inner packages) must not and is implicitly considered at the code
-from util.algebraic_func.basic_func import *
-from util.algebraic_func.basic_func import sum, subtract, multiply, divide
-import util.algebraic_func.basic_func as my_module
-from util.algebraic_func import basic_func as my_math # imports the whole basic_func module (and its functions) from
-# the packages util.algebraic_func, setting "my_module' as an alias to the basic_func module
+# while what comes between "from" and "import" (inner packages) must not and is implicitly considered at the code:
+# from util.algebraic_func.basic_func import *
+# from util.algebraic_func.basic_func import sum, subtract, multiply, divide
+# import util.algebraic_func.basic_func as my_math
+# the statement below imports the whole basic_func module (and its functions) from the packages util.algebraic_func,
+# setting "my_math' as an alias to the basic_func module
+from util.algebraic_func import basic_func as my_math
 
 # global variables used inside functions
 input_user_name = None # stores the user name
 input_operation_int = None # stores which operation to execute on each while iteration
-input_operand_string_list = None # stores a list of strings corresponding the operand values entered by the user that
+input_operand_string_list = None # stores a list of strings corresponding to the operand values entered by the user that
 # will be processed at each operation
 
 
@@ -42,7 +43,7 @@ def convert_input_operation_string_to_integer(ios):
         print(f"Error converting string value to integer: \"{ios}\" !")
         return None
     except:
-        print(f"Unknown Exception ! Please try again !")
+        print("Unknown Exception ! Please try again !")
         return None
 
 
@@ -71,7 +72,7 @@ def convert_input_operand_string_list_to_integer_list(iosl):
         print(f"Error converting string value to integer: \"{iosl}\" !")
         return None
     except:
-        print(f"Unknown Exception ! Please try again !")
+        print("Unknown Exception ! Please try again !")
         return None
 
 
@@ -137,7 +138,7 @@ def init():
             case _:
                 print(f"Invalid operation number: \"{input_operation_int}\" ! Please type a valid integer number for "
                       f"selecting a valid operation !")
-    print(f"\nEND OF EXECUTION !")
+    print("\nEND OF EXECUTION !")
     print(f"Have a nice day {input_user_name} ;D")
 
 
